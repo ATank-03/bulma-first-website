@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar has-background-link-light" role="navigation" , aria-label="main navigation">
+        <a href="#">
+            <div class="navbar-brand m-1"><img src="logo.png" alt="Bit Academy logo" style="max-height: 45px;">
+        </a>
+        <a href="index.html" class="navbar-item has-text-primary">
+            <i class="fa-sharp-duotone fa-solid fa-house"></i>
+            Home
+        </a>
+        <a href="#" class="navbar-item has-text-warning">
+            <i class="fa-sharp-duotone fa-solid fa-globe"></i>
+            Universe
+        </a>
+
+        <a href="#" class="navbar-item has-text-link">
+            <i class="fa-sharp-duotone fa-solid fa-magnifying-glass"></i>
+            Reviews
+        </a>
+
+        <a href="docentenPanel.html" class="navbar-item has-text-danger">
+            <i class="fa-sharp-duotone fa-solid fa-school"></i>
+            Docenten Paneel
+        </a>
+        <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <!-- doel van de dag -->
+                <div class="column is-3">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <p class="is-size-5 ">mijn dagdoel</p>
+                            <button class="button is-info">
+                                <i class="fa-sharp-duotone fa-solid fa-arrow-right-arrow-left"></i>vorige
+                                week
+                            </button>
+                        </div>
+                        <div class="panel-block">
+                            <input class="input is-primary" type="text" placeholder="dagdoel">
+                            <a class="button is-rounded is-info">+</a>
+                        </div>
+                        <div class="panel-block">
+                            <button class="button is-success">
+                                <i class="fa-sharp-duotone fa-solid fa-floppy-disk"></i>
+                                Opslaan</button>
+                        </div>
+                        <div class="panel-block">
+                            <p class="is-size-6">Zet dagdoel, zodat je deze dag gefocussed bezig kan zijn</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- calender -->
+                <div class="column is-9">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">Rooseter deze week</p>
+                        </header>
+                        <div class="card-content">
+
+                            <div class="fixed-grid has-12-cols">
+                                <div class="grid">
+                                    <div class="cell">7:00</div>
+                                    <div class="cell">8:00</div>
+                                    <div class="cell">9:00</div>
+                                    <div class="cell">10:00</div>
+                                    <div class="cell">11:00</div>
+                                    <div class="cell">12:00</div>
+                                    <div class="cell">13:00</div>
+                                    <div class="cell">14:00</div>
+                                    <div class="cell">15:00</div>
+                                    <div class="cell">16:00</div>
+                                    <div class="cell">17:00</div>
+                                </div>
+                            </div>
+
+                            <div class="fixed-grid has-11-cols">
+                                <div class="grid">
+                                    <p>Ma</p>
+                                    <div class="cell"></div>
+                                    <div class="cell is-col-span-6 has-background-white-ter">
+                                        <p class="has-text-warning-dark">Programmeren</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fixed-grid has-11-cols">
+                                <div class="grid">
+                                    <p>Di</p>
+                                    <div class="cell"></div>
+                                    <div class="cell is-col-span-6 has-background-info">
+                                        <p class="has-text-warning-dark">Programmeren</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fixed-grid has-11-cols">
+                                <div class="grid">
+                                    <p>Wo</p>
+                                    <div class="cell"></div>
+                                    <div class="cell is-col-span-6 has-background-warning">
+                                        <p class="has-text-warning-dark">Programmeren</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fixed-grid has-11-cols">
+                                <div class="grid">
+                                    <p>Do</p>
+                                    <div class="cell"></div>
+                                    <div class="cell is-col-span-6 has-background-danger">
+                                        <p class="has-text-warning-dark">Programmeren</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fixed-grid has-11-cols">
+                                <div class="grid">
+                                    <p>Vr</p>
+                                    <div class="cell"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <progress class="progress is-large is-info"></progress>
+    <progress class="progress is-large is-warning"></progress>
+    <progress class="progress is-large is-danger"></progress>
+
+
+    <div>
+        <i class="fa-sharp-duotone fa-solid fa-code"></i>
+    </div>
+
+
+</body>
+
+</html>
